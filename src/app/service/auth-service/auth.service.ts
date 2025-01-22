@@ -13,10 +13,10 @@ export class AuthService {
   authenticate(): Observable<any> {
     const authData = {
       grant_type: 'password',
-      client_id: '9de1d9e5-9885-44b6-867d-d30778947758',
-      client_secret: 'OKU8gAxWAjfFvNBPY6wHfTwQSsohhzr6o3rkbRho',
-      username: 'sandbox@factus.com.co',
-      password: 'sandbox2024%',
+      client_id: 'tu_client_id',
+      client_secret: 'tu_client_secret',
+      username: 'usuario@correo.com',
+      password: 'tu_password',
     };
 
     const body = new HttpParams()
